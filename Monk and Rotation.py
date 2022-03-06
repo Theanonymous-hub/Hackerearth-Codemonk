@@ -1,3 +1,5 @@
+#Rotate an integer with 2 times
+
 t=int(input())
 while t!=0:
     n,k = map(int,input().split())
@@ -10,4 +12,15 @@ while t!=0:
 
     print(" ")
     t-=1
+    
+    
+    #Input
+#1
+#5 2
+#1 2 3 4 5
+
+#Output
+#4 5 1 2 3
+#Expected Correct Output
+#4 5 1 2 3
     
